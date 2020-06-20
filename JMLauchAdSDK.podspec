@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/lishuhui038/JMLauchAdSDK.git", :tag => "0.0.2" }
 
-
+  spec.source_files = "JMLauchAdSDK/*"
   spec.requires_arc = true
 
 
